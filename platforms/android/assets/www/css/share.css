@@ -1,0 +1,221 @@
+
+/*************************Header栏代码*****************************/
+
+#sh-h-comment{
+	display:inline-block;
+	margin-right:5px;
+	height:40px;
+	line-height:40px;
+}
+
+#sh-h-comment button{
+	display:inline-block;
+	height:30px;
+	width:60px;
+	border-radius:7px;
+	font-size:12px;
+	text-align:center;
+	color:#FFF;
+}
+
+
+
+
+
+#sh-comment{
+	z-index:1;
+	position:absolute;
+	top:40px;
+	bottom:0;
+	width:100%;
+	overflow:hidden;
+}
+
+#sh-c-w{
+	position:absolute; z-index:1;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	width:100%;
+	padding:0;
+}
+
+#sh-c-w ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	width:100%;
+	text-align:left;
+}
+
+#sh-c-w li {
+	padding:5px 15px;
+	width:100%
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #fff;
+}
+
+#sh-c-w li span{
+	width:100%;
+	padding:10px 10px;
+	font-size:14px;
+	font-weight:bold;
+	color:#444;
+}
+
+
+.sh-c-name{
+	width:100%;
+	padding:5px 10px;
+	font-size:13px;
+	color:#444;
+}
+
+.sh-c-text{
+	width:100%;
+	padding:0;
+	font-size:14px;
+	line-height:18px;
+}
+
+.sh-c-time{
+	width:100%;
+	padding:5px 0;
+	font-size:12px;
+	color:#888;
+}
+
+
+#sh-open{
+	z-index:1;
+	position:absolute;
+	top:40px;
+	bottom:0;
+	width:100%;
+	overflow:hidden;
+}
+
+#sh-open .sh-open-text{
+	width:90%;
+	margin:20px auto;
+	font-size:16px;
+	line-height:20px;
+	color:#000;
+}
+#sh-open .sh-open-button{
+	margin:0 auto;
+	height:24px;
+	width:120px;
+	text-align:center;
+	background-image:url(../img/weibo.png);
+	background-size:100% 100%;
+}
+
+
+
+
+
+#sh-cover{
+	display:none;
+	position:absolute;
+	z-index:3;
+	left:0;
+	right:0;
+	top:40px;
+	bottom:0;
+}
+
+
+/*************************对话框代码*****************************/
+
+#sh-dialog{
+	display:none;
+	position:absolute;
+	z-index:4;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+}
+
+#sh-d-bg{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:#DDD;
+	opacity:0.7;
+}
+
+#sh-d-cover{
+	display:table;
+	position:absolute;
+	width:100%;height:100%;
+}
+
+#sh-d-middley{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+#sh-d-textdialog{
+	width:270px;
+	height:210px;
+	background:#111;
+	border-radius:10px;
+	margin:0 auto;
+	padding:10px;
+}
+
+.sh-d-tdc{
+	position:absolute;
+	width:270px;
+	height:210px;
+	background:#FFF;
+}
+
+#sh-d-tdtitle{
+	position:absolute;
+	top:0px;left:0px;right:0;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	color:#FFF;
+	font-size:18px;
+}
+
+#sh-d-tdw{
+	position:absolute;
+	top:40px;
+	bottom:0px;
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+}
+
+#sh-d-tdhint{
+	margin:8px auto 0;
+	width:250px;
+	height:16px;
+	text-align:right;
+	line-height:20px;
+	font-size:14px;
+}
+
+#sh-d-tdinput{
+	display:block;
+	margin:10px auto;
+	width:250px;
+	height:75px;
+	border:2px #CCC solid;
+	border-radius:5px;
+	font-size:14px;
+	background:#F6F6F6;
+}
+
+#sh-d-tdconfirm, #sh-d-tdcancel {
+	display:inline-block;
+	margin:0px 10px;
+	width:100px;
+	height:35px;
+	border-radius:10px;
+	font-size:16px;
+	color:#FFF;
+}

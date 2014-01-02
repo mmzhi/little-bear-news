@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+	<skin>
+		<skin-name>银朱红</skin-name>
+		<css-name>default</css-name>
+		<preview>background-image:-webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #fe96c9), color-stop(0.05, #d51875), color-stop(1, #7b0a2e));</preview>
+	</skin>
+	<skin>
+		<skin-name>黛蓝黑</skin-name>
+		<css-name>deongaree</css-name>
+		<preview>background-image:-webkit-gradient(linear,left bottom,left top,color-stop(0.35, rgb(62,69,83)),color-stop(0.68, rgb(93,97,117)),color-stop(0.84, rgb(121,127,153)))</preview>
+	</skin>
+	<skin>
+		<skin-name>胭脂红</skin-name>
+		<css-name>carminum</css-name>
+		<preview>background-image:-webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.4, rgb(233,42,69)),
+    color-stop(0.7, rgb(255,72,97)),
+    color-stop(0.85, rgb(255,101,127))
+)</preview>
+	</skin>
+	<skin>
+		<skin-name>葱黄绿</skin-name>
+		<css-name>kelly</css-name>
+		<preview>background-image:-webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.21, rgb(112,165,19)),
+    color-stop(0.61, rgb(146,198,46)),
+    color-stop(0.81, rgb(176,238,74))
+)</preview>
+	</skin>
+	<skin>
+		<skin-name>桔梗紫</skin-name>
+		<css-name>purple</css-name>
+		<preview>background-image:-webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.41, rgb(94,45,156)),
+    color-stop(0.71, rgb(123,72,188)),
+    color-stop(0.86, rgb(160,101,226))
+)</preview>
+	</skin>
+	<skin>
+		<skin-name>丁香紫</skin-name>
+		<css-name>lilac</css-name>
+		<preview>background-image:-webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.29, rgb(123,129,242)),
+    color-stop(0.65, rgb(160,155,255)),
+    color-stop(0.83, rgb(192,186,255))
+)</preview>
+	</skin>
+</theme>

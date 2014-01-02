@@ -1,0 +1,10 @@
+#ch-w-de, .c-header-button, .c-d-button, .c-d-title, .c-h-theme{
+	background-image:-webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.29, rgb(123,129,242)),
+    color-stop(0.65, rgb(160,155,255)),
+    color-stop(0.83, rgb(192,186,255))
+)
+}
