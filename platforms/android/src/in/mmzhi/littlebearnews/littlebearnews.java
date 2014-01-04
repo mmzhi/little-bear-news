@@ -22,15 +22,15 @@ package in.mmzhi.littlebearnews;
 import android.os.Bundle;
 import org.apache.cordova.*;
 
-public class littlebearnews extends DroidGap
+public class littlebearnews extends CordovaActivity 
 {
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        super.setIntegerProperty("splashscreen", R.drawable.splash);
+        super.init();
         // Set by <content src="index.html" /> in config.xml
-        super.loadUrl(Config.getStartUrl(), 5000);
+        super.loadUrl(Config.getStartUrl());
         //super.loadUrl("file:///android_asset/www/index.html")
     }
 }
